@@ -52,9 +52,20 @@
     grid-area: box6;
 }
 
+.main-servicios{
+    border-bottom: 5px solid rgb(77, 80, 235);
+}
+
+.main-contacto{
+    border-bottom: 5px solid rgb(77, 80, 235);
+}
+
+.main-institucional{
+    border-bottom: 5px solid rgb(77, 80, 235);
+}
 nav a:hover{ 
-    background-color:#070806;
-    color:#d3dba4;
+    background-color:#757575;
+    color:#ffffff;
     transform:scale(2,2);
     transition: all 0.9s;
 }
@@ -100,10 +111,6 @@ h1{
     box-shadow: 10px;
     color: black;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-}
-
-nav{
-    grid-area: nav;
 }
 
 #institucional{
@@ -180,15 +187,13 @@ img{
     width: 100%;
 }
 
+
 footer{
     grid-area: footer;
     grid-template-rows: 50% 50%;
 }
 
-.footer p{
-    align-items: center;
-    justify-items: center;
-}
+
 
 @media only screen and (max-width:600px){
 
